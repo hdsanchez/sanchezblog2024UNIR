@@ -6,5 +6,8 @@ module.exports = {
     title: `Sanchez's Blogs 2024 UNIR`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
